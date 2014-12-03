@@ -1,0 +1,118 @@
+#contextual-bei-back {
+	background:#fff;
+	border-color: #ccc;
+}
+
+.contextual-bei-tabs a:hover {
+	color:#333
+}
+	
+.contextual-bei-tabs .active, .contextual-bei-tabs .active a, .contextual-bei-tabs .active a:hover {
+	background:#fff;
+	color:#333
+}
+
+#contextual-bei-link-wrap {
+	border-right:1px solid #d1e5ee;
+	border-left:1px solid #d1e5ee;
+	border-bottom:1px solid #d1e5ee;
+	background:#eff8ff;
+	background-image:-webkit-gradient(linear,left bottom,left top,from(#def1ff),to(#eff8ff));
+	background-image:-webkit-linear-gradient(bottom,#def1ff,#eff8ff);
+	background-image:-moz-linear-gradient(bottom,#def1ff,#eff8ff);
+	background-image:-o-linear-gradient(bottom,#def1ff,#eff8ff);
+	background-image:linear-gradient(to top,#def1ff,#eff8ff);
+	float:right;
+	height:23px;
+	padding:0;
+	margin:0 0 0 6px;
+	font-family:sans-serif;
+	-webkit-border-bottom-left-radius:3px;
+	-webkit-border-bottom-right-radius:3px;
+	border-bottom-left-radius:3px;
+	border-bottom-right-radius:3px
+}
+
+#contextual-bei-wrap {
+	padding:0;
+	margin-left:-4px
+}
+
+#contextual-bei-columns {
+	position:relative
+}
+
+#contextual-bei-back {
+	position:absolute;
+	top:0;
+	bottom:0;
+	left:150px;
+	right:170px;
+	border-width:0 1px;
+	border-style:solid
+}
+
+#contextual-bei-wrap.no-sidebar #contextual-bei-back {
+	right:0;
+	border-right-width:0;
+	-webkit-border-bottom-right-radius:2px;
+	border-bottom-right-radius:2px
+}
+
+.contextual-bei-tabs {
+	float:left;
+	width:150px;
+	margin:0
+}
+
+.contextual-bei-tabs ul {
+	margin:1em 0
+}
+
+.contextual-bei-tabs li {
+	list-style-type:none;
+}
+
+.contextual-bei-tabs a {
+	display:block;
+	padding:5px 5px 5px 12px;
+	line-height:18px;
+	text-decoration:none;	
+	outline: 0;
+}
+
+.contextual-bei-tabs .active {
+	border-color: #ccc;
+	background: #fff;
+	color: #333;
+	padding:0;
+	border-style:solid;
+	border-width:1px 0 1px 1px;
+	border-color:#ccc;
+	width: 154px;
+}
+
+.contextual-bei-tabs .active a, .contextual-bei-tabs .active a:hover {
+	background: #fff;
+	color: #333;
+}
+
+.contextual-bei-tabs-wrap {
+	padding:0 20px;
+	overflow:auto
+}
+
+.bei-tab-content {
+	display:none;
+	margin:0 22px 12px 0;
+	line-height:1.6em
+}
+
+.bei-tab-content.active {
+	display:block
+}
+
+.bei-tab-content li {
+	list-style-type:disc;
+	margin-left:18px
+}

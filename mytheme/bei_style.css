@@ -1,0 +1,148 @@
+/*---------------------------------------------------------------
+This is the default styling for the instructions on the back end.  I'm supplying a commented-out
+copy of the existing styles for two reasons:
+1. It's a lot easier for you to see what ID's and classes ar eused in styling - if I force you 
+   to "view source" it's a PITA because there's a LOT of stuff in the source code for admin pages.
+   So basically, I'm being nice.
+2. I know when default styles are put in for a plugin, and the plugin's style is conflicting 
+   with what I want, it's so nice to see what the default style IS, so I can counteract it.
+   You can do that, but usually you have to go digging for the stylesheet and the examine
+   everything to see what's up. So I'm just popping a copy of it here so you'll always
+   know what the defaults are, and you don't have to go searching for anything.
+*/
+
+
+/*---------------------------------------------------------------
+These styles are for the expanable box (that holds your posts) and the button to open and close them.
+They use the "Classic" admin styling by default. If you don't want to mess with your admin styling, 
+then skip this part and move on down to the post styling.
+---------------------------------------------------------------*/
+#bei-screen-meta {
+	margin:0 15px 0 5px;
+	border-width:0 1px 1px;
+	border-style:none solid solid;
+	background-color:#f1f1f1;
+	border-color:#ccc;
+	-webkit-box-shadow:0 1px 3px rgba(0,0,0,0.05);
+	box-shadow:0 1px 3px rgba(0,0,0,0.05);
+}
+
+#bei-screen-meta, #bei-link-wrap {
+	-webkit-border-bottom-left-radius:3px;
+	-webkit-border-bottom-right-radius:3px;
+	border-bottom-left-radius:3px;
+	border-bottom-right-radius:3px;
+}
+
+#bei-screen-options-wrap {
+	margin:0;
+	padding:8px 20px 12px;
+}
+
+#bei-screen-meta-links {
+	margin:0 24px 0 0;
+}
+
+#bei-screen-meta-links a {
+	text-decoration:none;
+	padding:0 16px 0 6px;
+	height:22px;
+	line-height:22px;
+	font-size:12px;
+	display:block;
+	text-shadow:rgba(255,255,255,0.7) 0 1px 0;
+	color:#777;
+	background:transparent url(../../../wp-admin/images/arrows.png) no-repeat right 3px;
+}
+
+#bei-screen-meta-links a:hover {
+	color:#000;
+}
+
+#bei-screen-meta-links a.screen-meta-active {
+	background-position: right -33px;
+}
+
+#bei-link-wrap {
+	right:197px;
+	height:22px;
+	padding:0;
+	margin:0 0 0 6px;
+	font-family:sans-serif;
+	background-color:#e3e3e3;
+	border-right:1px solid transparent;
+	border-left:1px solid transparent;
+	border-bottom:1px solid transparent;
+	background-image:-ms-linear-gradient(bottom,#dfdfdf,#f1f1f1);
+	background-image:-moz-linear-gradient(bottom,#dfdfdf,#f1f1f1);
+	background-image:-o-linear-gradient(bottom,#dfdfdf,#f1f1f1);
+	background-image:-webkit-gradient(linear,left bottom,left top,from(#dfdfdf),to(#f1f1f1));
+	background-image:-webkit-linear-gradient(bottom,#dfdfdf,#f1f1f1);
+	background-image:linear-gradient(bottom,#dfdfdf,#f1f1f1);
+}
+
+#bei-link-wrap.screen-meta-active a {
+	background-position: right -33px;
+}
+
+
+/*---------------------------------------------------------------
+These styles are for the content within the container - how the instructions are formatted.
+---------------------------------------------------------------*/
+
+#bei-screen-options-wrap p {
+	line-height:1.4em;
+	margin-bottom:0.6em;
+	text-align:left;
+}
+
+#bei-screen-options-wrap .small { 
+	/* small paragraph text - seen under videos */
+	text-align:center;
+	color:#777; 
+	font-size:0.8em;
+	font-style:italic;
+}
+
+#bei-screen-options-wrap object {
+	/* if you use the custom field for the post to pop in a video, this will style it.*/ 
+	margin:0 auto;
+}
+
+#bei-screen-options-wrap ul, #bei-screen-options-wrap ol {
+	margin:0 1em 0.75em 1em;
+	list-style-position:outside;
+	text-align:left;
+}
+
+#bei-screen-options-wrap ul ul, #bei-screen-options-wrap ol ol {
+	margin-bottom:0;
+}
+
+#bei-screen-options-wrap ul {
+	list-style-type:square;
+}
+
+#bei-screen-options-wrap ul ul {
+	font-style:italic;
+}
+
+#bei-screen-options-wrap ol {
+	list-style:decimal;
+}
+
+#bei-screen-options-wrap ol ol {
+	list-style:lower-alpha;
+}
+
+.html5-video {
+	width:640px;
+	height:366px;
+	background:#000;
+}
+
+
+/* See? Nothing too terrible.  You should be able to easily edit whatchoo need here :) Keep in mind, if you've 
+taken embed code from someplace and embedded it in the post, you'll need to figure out how to style it.  
+For instance, Vimeo uses iframes, so you'll want to pop in a "#bei-screen-options-wrap iframe" call to style that.
+*/

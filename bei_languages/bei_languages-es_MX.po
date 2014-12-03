@@ -1,0 +1,305 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Back-End Instructions v3.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2013-05-21 19:25:10+0000\n"
+"Last-Translator: shelly <shelly@foolishvisions.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: Spanish\n"
+"X-Poedit-Country: MEXICO\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#. translators: plugin header field 'Name'
+#: instructions.php:0
+#@ bei_languages
+msgid "Back-End Instructions"
+msgstr ""
+
+#. translators: plugin header field 'PluginURI'
+#: instructions.php:0
+#@ bei_languages
+msgid "http://wordpress.org/extend/plugins/back-end-instructions/"
+msgstr ""
+
+#. translators: plugin header field 'Description'
+#: instructions.php:0
+#@ bei_languages
+msgid "Plugin to provide nice little instructions for back-end WordPress users."
+msgstr "Plugin para proporcionar pequeñas instrucciones agradable para los usuarios de servicios de fondo de WordPress."
+
+#. translators: plugin header field 'Author'
+#: instructions.php:0
+#@ bei_languages
+msgid "Shelly Cole"
+msgstr ""
+
+#. translators: plugin header field 'AuthorURI'
+#: instructions.php:0
+#@ bei_languages
+msgid "http://brassblogs.com"
+msgstr ""
+
+#. translators: plugin header field 'Version'
+#: instructions.php:0
+#@ bei_languages
+msgid "3.1"
+msgstr ""
+
+#: instructions.php:228
+#: instructions.php:253
+#@ bei_languages
+msgid "Back End Instructions"
+msgstr ""
+
+#: instructions.php:239
+#@ bei_languages
+msgid "Use a Custom Help Tab?"
+msgstr "Utilice una etiqueta de ayuda personalizada?"
+
+#: instructions.php:240
+#@ bei_languages
+msgid "Default Admin Level"
+msgstr "Nivel del administrador por defecto"
+
+#: instructions.php:241
+#@ bei_languages
+msgid "Show in front?"
+msgstr "Mostrar en frente?"
+
+#: instructions.php:242
+#@ bei_languages
+msgid "Logged-in users only?"
+msgstr "Los usuarios autenticados solamente?"
+
+#: instructions.php:243
+#@ bei_languages
+msgid "Default viewing level"
+msgstr "Nivel de visionado por defecto"
+
+#: instructions.php:254
+#@ bei_languages
+msgid "There aren't too many default settings for the Back End Instructions, but it makes life easier to have them here."
+msgstr "No hay demasiados ajustes por defecto para las Back-End Instructions, pero hace la vida más fácil tenerlos aquí."
+
+#: instructions.php:258
+#@ bei_languages
+msgid "Save Changes"
+msgstr "Guardar cambios"
+
+#: instructions.php:279
+#@ bei_languages
+msgid "By default, Back End Instructions just ties into the WordPress standard \"help\" tab.  This option will allow you to use a standalone custom tab, instead."
+msgstr "Por defecto, Back-End Instructions  sólo vincula a la pestaña WordPress estándar \"ayuda\". Esta opción le permitirá utilizar una ficha personalizada independiente, en lugar."
+
+#: instructions.php:300
+#@ bei_languages
+msgid "Choose the lowest level logged-in user to create/edit/delete Instructions."
+msgstr "Elija el nivel más bajo registrado en el usuario para crear / editar / borrar instrucciones."
+
+#: instructions.php:305
+#@ bei_languages
+msgid "Super Administrator (for multi-site only)"
+msgstr "Súper Administrador (sólo para múltiples sitios)"
+
+#: instructions.php:310
+#: instructions.php:525
+#@ bei_languages
+msgid "Administrator"
+msgstr "Administrador"
+
+#: instructions.php:313
+#: instructions.php:526
+#@ bei_languages
+msgid "Editor"
+msgstr "Editor"
+
+#: instructions.php:316
+#: instructions.php:527
+#@ bei_languages
+msgid "Author"
+msgstr "Autor"
+
+#: instructions.php:329
+#, php-format
+#@ bei_languages
+msgid "Check \"yes\" if you'd like to make your instructions viewable on the front end of the site. <br /><strong>PLEASE NOTE</strong>: The first time you change this option, you WILL have to <a href=\"%1$s\">re-save your permalink settings</a> for this to take effect.  You may not ever have to do it again, but if you find you have issues after swapping back and forth, then try resetting them again to see if it helps.</span>"
+msgstr "Compruebe \\ \\\"sí \" si desea que sus instrucciones visible en la parte frontal del sitio. <br /> <strong> NOTA POR FAVOR </ strong>: La primera vez que se cambia esta opción, usted debe <a href=\"%1$s\"> volver a guardar la configuración de enlace permanente </ a> para que esto tenga efecto. Es posible que no siempre tienen que hacerlo de nuevo, pero si usted encuentra que tiene problemas después de cambiar de ida y vuelta, a continuación, intente reiniciar de nuevo para ver si ayuda. </span>"
+
+#: instructions.php:351
+#@ bei_languages
+msgid "Check \"yes\" if you'd like to make front-end instructions visible only to logged-in users.<br /><strong>PLEASE NOTE</strong>: if you check \"yes\" ANYONE can see ALL of these instructions.  See the next option to help with that a bit."
+msgstr "Compruebe \\ \\\"sí \" si desea que las instrucciones frontales visibles sólo para usuarios registrados <br /> <strong> NOTA POR FAVOR</ strong>:. Si marca \\ \\\"sí \" cualquiera puede ver TODAS estas instrucciones. Consulte la siguiente opción para ayudar un poco con eso."
+
+#: instructions.php:370
+#@ bei_languages
+msgid "You only need to choose an option from this dropdown if you set \"Show in front?\" to \"yes\" AND \"Logged-in users only?\" to \"no\".  If this option were not here, then ANY visitor to the site could see ALL instructions just by visiting the page.  If the user is logged in, they would see only instructions that were available to their level, but if they aren't, they would see them for ALL levels.  This option will allow you to treat a non-logged-in user as if they have a user level.  The default is \"Contributor.\""
+msgstr "Sólo tiene que elegir una opción de este menú desplegable si establece \\ \\\"Mostrar delante? \" \\\"Sólo los usuarios registrados? \" en \\ \\\"sí \" y \"Los usuarios autenticados solamente? \\ \\\" para \" no \\ \\\". Si esta opción no estuviera aquí, entonces toda persona que visite el sitio podría ver TODAS las instrucciones con sólo visitar la página. Si el usuario está conectado, verían únicas instrucciones que estaban disponibles a su nivel, pero si no es así, que iban a ver a todos los niveles. Esta opción le permitirá tratar a un no usuario conectado como si no tuvieran un nivel de usuario. El valor predeterminado es \\ \\\"colaborador \"."
+
+#: instructions.php:440
+#, php-format
+#@ bei_languages
+msgid "This plugin will not work in versions earlier than 3.1. However, it's highly recommended that you upgrade to the <a href=\"%1$s/wp-admin/update-core.php\" target=\"_parent\">most current and secure version</a>, even though you can use this plugin in version 3.1."
+msgstr "Este plugin no funcionará en versiones anteriores a la 3.1. Sin embargo, es muy recomendable que actualice a la <a href=\"%1$s/wp-admin/update-core.php\" target=\"_parent\"> versión más actualizada y segura </ a>, a pesar de que usted puede utilizar este plugin en la versión 3.1."
+
+#: instructions.php:463
+#@ bei_languages
+msgid "Instructions"
+msgstr "Instrucciones"
+
+#: instructions.php:464
+#@ bei_languages
+msgid "Instruction"
+msgstr "Instrucción"
+
+#: instructions.php:465
+#: instructions.php:466
+#@ bei_languages
+msgid "Add New Instruction"
+msgstr "Crear Nuevo Instrucción"
+
+#: instructions.php:467
+#: mytheme/archive-instructions.php:58
+#: mytheme/single-instructions.php:42
+#@ bei_languages
+#@ twentyeleven
+msgid "Edit"
+msgstr "Editar"
+
+#: instructions.php:468
+#@ bei_languages
+msgid "Edit Instruction"
+msgstr "Editar Instrucción"
+
+#: instructions.php:469
+#@ bei_languages
+msgid "New Instruction"
+msgstr "Nueva Instrucción"
+
+#: instructions.php:470
+#: instructions.php:471
+#@ bei_languages
+msgid "View Instruction"
+msgstr "Ver Instrucción"
+
+#: instructions.php:472
+#@ bei_languages
+msgid "Search Instructions"
+msgstr "Instrucciones para la búsqueda"
+
+#: instructions.php:473
+#@ bei_languages
+msgid "No instructions found."
+msgstr "No se encontraron instrucciones."
+
+#: instructions.php:474
+#@ bei_languages
+msgid "No instructions found in trash."
+msgstr "No se han encontrado en la basura instrucciones."
+
+#: instructions.php:475
+#@ bei_languages
+msgid "Parent Instruction"
+msgstr "Instrucción de Padres"
+
+#: instructions.php:479
+#@ bei_languages
+msgid "Section to add and manage instructions."
+msgstr "Sección para agregar y administrar instrucciones."
+
+#: instructions.php:507
+#@ bei_languages
+msgid "Page Name: "
+msgstr "Nombre de la página:"
+
+#: instructions.php:512
+#@ bei_languages
+msgid "+ "
+msgstr "+"
+
+#: instructions.php:517
+#@ bei_languages
+msgid "Video URL: "
+msgstr "URL del vídeo:"
+
+#: instructions.php:522
+#@ bei_languages
+msgid "User Level: "
+msgstr "Nivel de Usuario:"
+
+#: instructions.php:524
+#@ bei_languages
+msgid "Super Administrator"
+msgstr "Super Administrador"
+
+#: instructions.php:528
+#@ bei_languages
+msgid "Contributor"
+msgstr "Contribuidor"
+
+#: instructions.php:529
+#@ bei_languages
+msgid "Subscriber"
+msgstr "Suscriptor"
+
+#: instructions.php:539
+#@ bei_languages
+msgid "Instruction Page Information"
+msgstr "Instrucción Página de Información"
+
+#: instructions.php:867
+#, php-format
+#@ bei_languages
+msgid "If you have an issue viewing this video, please contact <a href=\"mailto:%1$s\">%1$s</a>."
+msgstr "Si usted tiene un problema para viendo este video, por favor póngase en contacto con <a href=\"mailto:%1$s\">% 1 $ s </ a>."
+
+#: instructions.php:1020
+#@ bei_languages
+msgid "This update provides a few bugfixes (especially where WooThemes' \"Canvas\" theme is involved), and contains a few search and minor security fixes.  If you have any issues, please ask in the <a href=\"http://wordpress.org/support/plugin/back-end-instructions\">support forums</a> for the plugin.  I'm pretty good about helping out!"
+msgstr "Esta actualización proporciona algunas correcciones de errores (sobre todo cuando se trate de WooThemes \\\"Canvas \" '\\ theme), y contiene algunos de búsqueda y soluciones de seguridad de menor importancia. Si usted tiene cualquier problema, por favor pregunte en el <a href=\"http://wordpress.org/support/plugin/back-end-instructions\"> foros de soporte </ a> para el plugin. Soy bastante bueno en ayudar a salir!"
+
+#: mytheme/archive-instructions.php:54
+#: mytheme/single-instructions.php:38
+#@ twentyeleven
+msgid "Pages:"
+msgstr ""
+
+#: mytheme/archive-instructions.php:66
+#: mytheme/single-instructions.php:50
+#, php-format
+#@ twentyeleven
+msgid "About %s"
+msgstr ""
+
+#: mytheme/archive-instructions.php:70
+#: mytheme/single-instructions.php:54
+#, php-format
+#@ twentyeleven
+msgid "View all posts by %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: mytheme/archive-instructions.php:89
+#@ twentyeleven
+msgid "Nothing Found"
+msgstr ""
+
+#: mytheme/archive-instructions.php:93
+#@ twentyeleven
+msgid "Apologies, but no results were found for the requested archive. Perhaps searching will help find a related post."
+msgstr ""
+
+#: mytheme/archive-instructions.php:102
+#@ twentyeleven
+msgid "Post navigation"
+msgstr ""
+
